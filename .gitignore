@@ -1,0 +1,5 @@
+# Ignore generated playlist file
+aggregate.m3u
+
+# Ignore vi/vim files
+*.swp
