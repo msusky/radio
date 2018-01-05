@@ -1,0 +1,10 @@
+#EXTM3U
+
+#EXTINF:-1,Ambient echoes of a lost fleet - Bluemars
+http://streams.echoesofbluemars.org:8000/bluemars
+
+#EXTINF:-1,Ambient echoes of a lost fleet - Cryosleep
+http://streams.echoesofbluemars.org:8000/cryosleep
+
+#EXTINF:-1,Ambient echoes of a lost fleet - Voices From Within
+http://streams.echoesofbluemars.org:8000/voicesfromwithin
