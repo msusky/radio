@@ -1,0 +1,13 @@
+#EXTM3U
+
+#EXTINF:-1,Radio Ozora - Chill Channel (MP3 192 Kbps)
+http://stream.radiozora.fm:8000/chill_a
+
+#EXTINF:-1,Radio Ozora - Chill Channel (AAC 64 Kbps)
+http://stream.radiozora.fm:8000/chill_b
+
+#EXTINF:-1,Radio Ozora - Trance Channel (MP3 192 Kbps)
+http://stream.radiozora.fm:8000/trance_a
+
+#EXTINF:-1,Radio Ozora - Trance Channel (AAC 64 Kbps)
+http://stream.radiozora.fm:8000/trance_b

@@ -1,0 +1,7 @@
+#EXTM3U
+
+#EXTINF:-1,Apollo Radio
+http://apollo-stream.primacom.net:6300
+
+#EXTINF:-1,Whisperings - Solo piano music to quite your world
+http://pianosolo.streamguys.net:80/live
