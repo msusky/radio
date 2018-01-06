@@ -6,10 +6,11 @@ aggregate_file="aggregate.m3u"
 # Replace existing playlist file and adds M3U content header
 echo -e "#EXTM3U\n" > $aggregate_file
 
-# Append found URLs of playlist files located in current directory
+# Sort, deduplicate, sanitize and append found URLs
 for fp in $(ls -R1 **/*.{pls,m3u}); do
-    grep -E '^.*=http[s]?://.*$' $fp | \
-        sed -e 's/^File[[:digit:]]=\(.*\)$/\1/g' >> $aggregate_file
-done
+    grep -E '^.*http.*$' $fp | \
+        sed -e 's/^.*\(http.*\)$/\1/g' \
+            -e 's/[^[:print:]]//g'
+done | sort -bi | uniq >> $aggregate_file
 
-exit 1
+exit 0
