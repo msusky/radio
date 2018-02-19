@@ -3,5 +3,11 @@
 #EXTINF:-1,Apollo Radio
 http://apollo-stream.primacom.net:6300
 
+#EXTINF:-1,Apollo Radio
+http://streams.bcs-systems.de/apollo/live/sachsen/mp3/web
+
+#EXTINF:-1,Apollo Radio
+http://streaming.apolloradio.de/apolloradio_simulcast_192k_mp3
+
 #EXTINF:-1,Whisperings - Solo piano music to quite your world
 http://pianosolo.streamguys.net:80/live
